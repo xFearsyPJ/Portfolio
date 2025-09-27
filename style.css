@@ -2,7 +2,7 @@
 .tech-card p {
   color: #fff;
 }
-/* Reset and base styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ body {
   color: #fff;
   overflow-x: hidden;
 }
-/* Modo oscuro */
+
 body.dark-mode {
   background: #121212;
   color: #e0e0e0;
@@ -97,14 +97,7 @@ body.dark-mode .theme-toggle i {
   font-weight: 600;
 }
 
-.nav-left a:hover,
-.nav-left .active {
-  color: white;
-  background-color: teal;
-  padding: 0.4rem 1rem;
-  border-radius: 2rem;
-  transition: all 0.3s ease;
-}
+
 
 .nav-center{
   display: flex;
@@ -116,17 +109,6 @@ body.dark-mode .theme-toggle i {
   color: #333;
   font-weight: 600;
 }
-
-.nav-center a:hover,
-.nav-center .active {
-  color: white;
-  background-color: teal;
-  padding: 0.4rem 1rem;
-  border-radius: 2rem;
-  transition: all 0.3s ease;
-}
-
-
 
 .nav-icons a, .nav-icons button {
   text-decoration: none;
